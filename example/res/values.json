@@ -1,0 +1,34 @@
+{
+    "dimens": {
+        "h1_text_size": "32dp",
+        "h2_text_size": "24dp",
+        "h3_text_size": "19dp",
+        "h4_text_size": "16dp",
+        "h5_text_size": "14dp",
+        "h6_text_size": "13dp"
+    },
+    "colors": {
+        "black": "#000000",
+        "FireBrick": "#B22222",
+        "DeepPink": "#FF1493",
+        "Gold": "#FFD700",
+        "OliveDrab": "#6B8E23",
+        "Lime": "#00FF00",
+        "RoyalBlue": "#4169E1",
+        "DarkOrchid": "#9932CC"
+    },
+    "drawable": {
+        "logo": "graphics/FlutterDart.png"
+    },
+    "strings": {
+        "string 1": "base string 1"
+    },
+    "integers": {
+        "integer 1": 10,
+        "integer 2": 20
+    },
+    "doubles": {
+        "double 1": 30.3,
+        "double 2": 40
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "dimens": {
+        "example_text_size": "@dimen/to base h2",
+        "to base h2": "@dimen/h2_text_size",
+        "color_bar_height": "30dp",
+        "color_bar_padding": "5dp",
+        "list_padding": "20dp",
+        "gap": "50dp",
+        "shown dp": "50dp",
+        "shown px": "50px"
+    },
+    "colors": {
+        "As FireBrick": "@color/to base fire brick",
+        "to base fire brick": "@color/FireBrick",
+        "H1 color": "@color/RoyalBlue",
+        "H2 color": "@color/RoyalBlue",
+        "H3 color": "@color/RoyalBlue",
+        "H4 color": "@color/RoyalBlue",
+        "H5 color": "@color/RoyalBlue",
+        "H6 color": "@color/RoyalBlue",
+        "image label color": "@color/DarkOrchid",
+        "num label color": "@color/Gold",
+        "pixel label color": "@color/Lime",
+        "string label color": "@color/OliveDrab"
+    },
+    "drawable": {
+        "logo": "graphics/flutter.PNG"
+    },
+    "strings": {
+        "string 1": "example string 1"
+    },
+    "integers": {
+        "integer 1": "@integer/integer 3",
+        "integer 2": 21,
+        "integer 3": "@integer/integer 1"
+    },
+    "doubles": {
+        "double 1": "@double/double 1",
+        "double 2": 41
+    }
+}
