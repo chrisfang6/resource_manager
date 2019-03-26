@@ -9,16 +9,16 @@ part of 'resources.dart';
 Resources _$ResourcesFromJson(Map<String, dynamic> json) {
   return Resources(
       dimens: (json['dimens'] as Map<String, dynamic>)?.map(
-        (k, e) => MapEntry(k, e as String),
+        (k, dynamic e) => MapEntry(k, e as String),
       ),
       colors: (json['colors'] as Map<String, dynamic>)?.map(
-        (k, e) => MapEntry(k, e as String),
+        (k, dynamic e) => MapEntry(k, e as String),
       ),
       drawable: (json['drawable'] as Map<String, dynamic>)?.map(
-        (k, e) => MapEntry(k, e as String),
+        (k, dynamic e) => MapEntry(k, e as String),
       ),
       strings: (json['strings'] as Map<String, dynamic>)?.map(
-        (k, e) => MapEntry(k, e as String),
+        (k, dynamic e) => MapEntry(k, e as String),
       ),
       integers: json['integers'] as Map<String, dynamic>,
       doubles: json['doubles'] as Map<String, dynamic>);

@@ -27,11 +27,11 @@ Future initBaseResources(
 Future<Resources> getResources(String jsonFile) async => Resources.fromJson(
     json.decode(await rootBundle.loadString(jsonFile)) as Map<String, dynamic>);
 
-setDevicePixelRatio(double devicePixelRatio) {
+void setDevicePixelRatio(double devicePixelRatio) {
   _devicePixelRatio = devicePixelRatio;
 }
 
-_setResources(Resources resources) {
+void _setResources(Resources resources) {
   _resources = resources;
 }
 
