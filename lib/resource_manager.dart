@@ -50,8 +50,8 @@ void _setResources(Resources resources) {
   _resources = resources;
 }
 
-int _dpToPxWithDensity(num dp) =>
-    (dp * _devicePixelRatio + (dp >= 0 ? 0.5 : (-0.5))).round();
+// int _dpToPxWithDensity(num dp) =>
+//     (dp * _devicePixelRatio + (dp >= 0 ? 0.5 : (-0.5))).round();
 
 int _pxToDpWithDensity(num px) =>
     (px / _devicePixelRatio + (px >= 0 ? 0.5 : (-0.5))).round();
